@@ -8,12 +8,4 @@
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
-<body>
-	<header>
-
-	</header>
-	<footer>
-
-	</footer>
-</body>
 </html>
