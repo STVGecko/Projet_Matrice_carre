@@ -14,8 +14,6 @@
 <p>Diego</p>
 <p>Anthony</p>
 <p>Loucasse</p>
-<p>Lucas ayant perdu son mot de passe, il ne verra jamais ces lignes.
-	Pauvre Lucas. </p>
 	</header>
 	<footer>
 
