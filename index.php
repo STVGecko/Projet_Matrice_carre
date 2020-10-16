@@ -2,6 +2,7 @@
 // à utiliser avec front-page.php
 //wp_redirect(site_url());
 //exit;
+//poitre
 ?>
 <?php get_header(); ?>
 
