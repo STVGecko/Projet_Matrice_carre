@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -17,7 +16,6 @@
 	</footer>
 </body>
 </html>
-=======
 <?php
 // à utiliser avec front-page.php
 //wp_redirect(site_url());
@@ -25,12 +23,9 @@
 ?>
 <?php get_header(); ?>
 
-<!--pull anthony-->
-
 <section id='content'>
   <aside>
     <fieldset id="fieldsetsidebar">
-  <legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>
   <?php get_sidebar(); ?>
   </aside>
 
