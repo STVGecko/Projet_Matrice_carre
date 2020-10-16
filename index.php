@@ -10,12 +10,9 @@
 </head>
 <body>
 	<header>
-<<<<<<< HEAD
 <p> Ceci est le header</p>
 	</header>
-=======
 </header>
->>>>>>> c7ef06670836d6776827f253b4b4b37aabbe5afb
 	<footer>
 
 	</footer>
