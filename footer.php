@@ -5,9 +5,9 @@
     <div class="site-info">
         <!-- It’s there for you to use if you want to add credit text/links via your child theme -->
     			<?php do_action( 'didactique_credits' ); ?>
-    			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'Une plate-forme sémantique de publication personnelle', 'didactique' ); ?>" rel="generator"><?php printf( __( 'Honteusement propulsé par %s', 'didactique' ), 'WordPress' ); ?></a>
+    			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'L\'agence de rêve', 'didactique' ); ?>" rel="generator"><?php printf( __( '© Tous droits réservés' ) ); ?></a>
     			<span class="sep"> | </span>
-    			<?php printf( __( 'Thème : %1$s par %2$s.', 'didactique' ), 'Didactique', 'Mathieu Mangeot' ); ?>
+    			<?php printf( __( 'Thème : %1$s par %2$s.', 'didactique' ), 'Matricy', 'Agence Matrice carrée' ); ?>
     		</div><!-- .site-info -->
 </fieldset>
 <?php wp_footer(); ?>
