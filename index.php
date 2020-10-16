@@ -73,4 +73,3 @@
 </section>
 
 <?php get_footer(); ?>
->>>>>>> 413fdb0976d0e88f82f2aebadeb47ecc3784e457
