@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +14,7 @@
 	</footer>
 </body>
 </html>
-=======
+
 <?php
 // à utiliser avec front-page.php
 //wp_redirect(site_url());
@@ -79,4 +79,3 @@
 </section>
 
 <?php get_footer(); ?>
->>>>>>> 413fdb0976d0e88f82f2aebadeb47ecc3784e457
