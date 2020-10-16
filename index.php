@@ -21,7 +21,6 @@
 	</footer>
 </body>
 </html>
-=======
 <?php
 // à utiliser avec front-page.php
 //wp_redirect(site_url());
@@ -29,36 +28,30 @@
 ?>
 <?php get_header(); ?>
 
-<!--pull anthony-->
-
 <section id='content'>
   <aside>
     <fieldset id="fieldsetsidebar">
-  <legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>
   <?php get_sidebar(); ?>
   </aside>
 
   <fieldset id="fieldsetcontent">
-    <legend>index.php: contenu avec the_loop <code>while ( have_posts() )</code></legend>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <fieldset class="post">
-    <legend>Article <code>the_post()</code> :</legend>
 
    	<!-- Display the Title as a link to the Post's permalink. -->
 
-   	<h2>Titre de l'article <code>the_title()</code>: <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+   	<h2>Titre de l'article : <a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
 
    	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
 
-   	<small>Date et auteur <code>the_time('j F Y à G:i')</code> : <?php the_time('j F Y à G:i'); ?> par <code>the_author_posts_link()</code> : <?php the_author_posts_link(); ?></small>
+   	<small>Date et auteur : <?php the_time('j F Y à G:i'); ?> par <code>the_author_posts_link()</code> : <?php the_author_posts_link(); ?></small>
 
 
    	<!-- Display the Post's content in a div box. -->
 
    	<div class="entry">
       <fieldset>
-       <legend>Contenu de l'article <code>the_content()</code></legend>
    		<?php the_content(); ?>
     </fieldset>
    	</div>
@@ -71,7 +64,6 @@
   </p>
 
     <fieldset style="margin-left:10%;">
-      <legend>Commentaires : <code>comments_template()</code></legend>
 <?php
     if ( comments_open() || get_comments_number() ) :
               comments_template();
@@ -86,4 +78,3 @@
 </section>
 
 <?php get_footer(); ?>
->>>>>>> 413fdb0976d0e88f82f2aebadeb47ecc3784e457
