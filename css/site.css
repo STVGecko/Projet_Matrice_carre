@@ -13,7 +13,7 @@ header {
 }
 
 header fieldset, header fieldset legend {
-  border: 2px solid blue;
+  border: 2px solid yellow;
 }
 
 header nav {
