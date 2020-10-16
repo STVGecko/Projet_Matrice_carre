@@ -21,7 +21,7 @@
 	</footer>
 </body>
 </html>
-=======
+
 <?php
 // à utiliser avec front-page.php
 //wp_redirect(site_url());
@@ -39,7 +39,7 @@
   <legend>index.php: &lt;aside&gt; + <code>get_sidebar()</code></legend>
 
   <?php get_sidebar(); ?>
-  
+
     </div>
   </aside>
 
@@ -91,4 +91,3 @@
 </section>
 
 <?php get_footer(); ?>
->>>>>>> 413fdb0976d0e88f82f2aebadeb47ecc3784e457
