@@ -30,10 +30,8 @@
   </aside>
 
   <fieldset id="fieldsetcontent">
-    <legend>index.php: contenu avec the_loop <code>while ( have_posts() )</code></legend>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <fieldset class="post">
-    <legend>Article <code>the_post()</code> :</legend>
 
    	<!-- Display the Title as a link to the Post's permalink. -->
 
@@ -49,7 +47,6 @@
 
    	<div class="entry">
       <fieldset>
-       <legend>Contenu de l'article <code>the_content()</code></legend>
    		<?php the_content(); ?>
     </fieldset>
    	</div>
@@ -62,7 +59,6 @@
   </p>
 
     <fieldset style="margin-left:10%;">
-      <legend>Commentaires : <code>comments_template()</code></legend>
 <?php
     if ( comments_open() || get_comments_number() ) :
               comments_template();
