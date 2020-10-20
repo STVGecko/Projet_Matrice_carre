@@ -9,7 +9,7 @@ body {
 header {
   display: block;
   text-align: center;
-  color: blue;
+  color: navy;
 }
 
 header fieldset, header fieldset legend {
@@ -55,6 +55,13 @@ legend {
   float: right;
 }
 
+#fieldsetsidebar, #fieldsetsidebar legend {
+  border: 2px solid green;
+}
+
+footer fieldset, footer fieldset legend {
+  border: 1px solid;
+}
 
 footer {
   display: block;
