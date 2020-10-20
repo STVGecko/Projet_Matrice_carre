@@ -33,7 +33,6 @@
   <fieldset id="fieldsetcontent">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <fieldset class="post">
-    <legend>Article :</legend>
 
    	<!-- Display the Title as a link to the Post's permalink. -->
 
@@ -49,7 +48,6 @@
 
    	<div class="entry">
       <fieldset>
-       <legend>Contenu de l'article</legend>
    		<?php the_content(); ?>
     </fieldset>
    	</div>
@@ -62,7 +60,6 @@
   </p>
 
     <fieldset style="margin-left:10%;">
-      <legend>Commentaires :</legend>
 <?php
     if ( comments_open() || get_comments_number() ) :
               comments_template();
