@@ -29,11 +29,11 @@
 
 <section id='content'>
 
-  <!--<aside>
+  <aside>
     <div>
   <//?php get_sidebar(); ?>
     </div>
-  </aside>test-->
+  </aside>
 
   <fieldset id="fieldsetcontent">
 
