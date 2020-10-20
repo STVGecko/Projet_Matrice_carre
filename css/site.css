@@ -54,7 +54,7 @@ legend {
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
-#content > aside {
+#content {
   display: flex;
   justify-content: center;
   padding-top: 2%;
@@ -73,6 +73,6 @@ footer {
   display: block;
   text-align: center;
   border: none;
-  background-color: #CADDAB;
+  background-color: red;
 
 }
