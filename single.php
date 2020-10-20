@@ -4,7 +4,7 @@
 	<title>
 
 	</title>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
@@ -33,7 +33,7 @@
   </aside>
 
   <fieldset id="fieldsetcontent">
-    
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
   <fieldset class="post">
     <p>Ceci est l'article :</p>
