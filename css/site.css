@@ -2,8 +2,6 @@
 Auteur : Mathieu Mangeot
 */
 
-
-
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
 }
@@ -51,14 +49,23 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
-
-#content > aside {
-  float: right;
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
 }
+
+/**#content > aside {
+  float: right;
+}**/
+
+#content { /**fait par steeven**/
+  display: flex;
+  justify-content: center;
+  padding-top: 3%;
+}
+
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border: 2px solid green;
+  width:27%;
 }
 
 footer fieldset, footer fieldset legend {
@@ -69,6 +76,6 @@ footer {
   display: block;
   text-align: center;
   border: none;
-  background-color: #CADDAB;
+  background-color: red;
 
 }
