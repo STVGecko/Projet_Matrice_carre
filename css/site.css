@@ -56,9 +56,9 @@ legend {
   position: absolute;
 }
 
-/**#content > aside {
+#content > aside {
   float: right;
-}**/
+}
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border:none;
