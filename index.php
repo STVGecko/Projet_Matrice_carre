@@ -10,7 +10,6 @@
 </head>
 <body>
 	<header>
-<p> Ceci est le header</p>
 	</header>
 </header>
 	<footer>
@@ -73,7 +72,7 @@
   </p>
 
     <fieldset style="margin-left:10%;">
-      
+
 <?php
     if ( comments_open() || get_comments_number() ) :
               comments_template();
