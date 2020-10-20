@@ -55,12 +55,19 @@ legend {
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
 }
 
+#content{
+  display: flex;
+  justify-content: center;
+  padding-top: 2%;
+}
+
 /**#content > aside {
   float: right;
 }**/
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border:none;
+  width: 27%;
   background-color: #C4F1F9;
 }
 
