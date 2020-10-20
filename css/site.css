@@ -64,9 +64,9 @@ footer fieldset, footer fieldset legend {
 }
 
 footer {
-  display: inline-block;
+  display: block;
   text-align: center;
   border: none;
-  background-color: red;
+  background-color: #CADDAB;
 
 }
