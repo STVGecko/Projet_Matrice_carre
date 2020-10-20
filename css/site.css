@@ -34,8 +34,7 @@ header nav {
 }
 
 fieldset {
-  float:right;
-  position: absolute;
+  margin: 10px;
 }
 fieldset, legend {
     background-color: #eee;
@@ -50,10 +49,10 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
-}
 #content > aside {
+  float: right;
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
