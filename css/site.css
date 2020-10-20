@@ -55,11 +55,6 @@ legend {
   float: right;
 }
 
-#fieldsetsidebar, #fieldsetsidebar legend {
-  border: 2px solid green;
-}
-
-
 
 footer {
   display: block;
