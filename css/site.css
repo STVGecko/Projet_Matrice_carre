@@ -50,14 +50,13 @@ legend {
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
-{width: 70%;}
+
 #content > aside {
-  /**float: right;**/
+  float: right;
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border: 2px solid green;
-  width: 30%;
 }
 
 footer fieldset, footer fieldset legend {
