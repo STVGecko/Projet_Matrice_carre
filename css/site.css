@@ -35,6 +35,8 @@ header nav {
 
 fieldset {
   margin: 10px;
+  inline:block;
+
 }
 fieldset, legend {
     background-color: #eee;
@@ -50,13 +52,14 @@ legend {
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
-
+{width: 70%;}
 #content > aside {
   /**float: right;**/
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border: 2px solid green;
+  width: 30%;
 }
 
 footer fieldset, footer fieldset legend {
