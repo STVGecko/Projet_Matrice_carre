@@ -54,9 +54,9 @@ legend {
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
-#content > aside {
+/**#content > aside {
   float: right;
-}
+}**/
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border:none;
