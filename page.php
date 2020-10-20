@@ -42,7 +42,7 @@
 
    	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
 
-   	<small>Date et auteur : <?php the_time('j F Y à G:i'); ?> par <code>the_author_posts_link()</code> : <?php the_author_posts_link(); ?></small>
+   	<small>Date et auteur : <?php the_time('j F Y à G:i'); ?> par : <?php the_author_posts_link(); ?></small>
 
 
    	<!-- Display the Post's content in a div box. -->
@@ -56,9 +56,9 @@
 
     <p style="font-size:.9em;">
       <!-- Display the number of comments. -->
-      Cet article a <code>comments_number(...)</code><a href="<?php the_permalink(); ?>#comments"><?php comments_number( 'aucun commentaire', 'un commentaire', '% commentaires' ); ?></a>.
+      Cet article a <a href="<?php the_permalink(); ?>#comments"><?php comments_number( 'aucun commentaire', 'un commentaire', '% commentaires' ); ?></a>.
    	<!-- Display a comma separated list of the Post's Categories. -->
-   	<span class="postmetadata">Posté dans <code>the_category(', ')</code><?php the_category( ', ' ); ?></span>
+   	<span class="postmetadata">Posté dans <?php the_category( ', ' ); ?></span>
   </p>
 
     <fieldset style="margin-left:10%;">
