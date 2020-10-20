@@ -71,8 +71,7 @@
    	<span class="postmetadata">Posté dans <?php the_category( ', ' ); ?></span>
   </p>
 
-    <fieldset style="margin-left:10%;">
-
+<fieldset style="margin-left:10%;">
 <?php
     if ( comments_open() || get_comments_number() ) :
               comments_template();
