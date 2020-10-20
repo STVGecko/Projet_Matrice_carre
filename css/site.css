@@ -52,7 +52,7 @@ legend {
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
 #content > aside {
-display: flex;
+  /**float: right;**/
 }
 
 
