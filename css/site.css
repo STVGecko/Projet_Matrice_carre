@@ -62,13 +62,13 @@ legend {
 }
 
 footer fieldset, footer fieldset legend {
-  border: 1px solid green;
+  border: 1px solid;
 }
 
 footer {
   display: block;
   text-align: center;
-  border-radius: 10px;
+  border: none;
   background-color: #CADDAB;
 
 }
