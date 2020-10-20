@@ -49,13 +49,15 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
-
-#content > aside {
-  float: right;
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
+  position: absolute;
 }
 
-/**#content { /**fait par steeven**/
+/**#content > aside {
+  float: right;
+}**/
+
+#content { /**fait par steeven**/
   display: flex;
   justify-content: center;
   padding-top: 3%;
