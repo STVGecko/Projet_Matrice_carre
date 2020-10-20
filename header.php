@@ -12,7 +12,7 @@
     <body>
       <header>
         <div>
-          <legend>header.php: &lt;head&gt; avec <code>wp_head()</code> + &lt;header&gt;</legend>
+          
           <h1>Agence Matrice Carrée <code>bloginfo('name')</code> : <?php bloginfo( 'name' ); ?></h1>
           <h2> Matrice Carrée, c'est carrée.<code>bloginfo('description')</code> : <?php bloginfo( 'description' ); ?></h2>
           <nav id="menuprincipal">
@@ -22,4 +22,3 @@
         </div>
       </header>
   </html>
- 

@@ -9,10 +9,12 @@ body {
 header {
   display: block;
   text-align: center;
-  color: #10140A;
+  color: navy;
 }
 
-
+header fieldset, header fieldset legend {
+  border: 5px solid yellow;
+}
 
 header nav {
   display:block;
@@ -47,12 +49,15 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
 #content > aside {
   float: right;
 }
 
-
+#fieldsetsidebar, #fieldsetsidebar legend {
+  border: 2px solid green;
+}
 
 footer fieldset, footer fieldset legend {
   border: 1px solid;
