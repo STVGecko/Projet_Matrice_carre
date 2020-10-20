@@ -18,6 +18,7 @@ header fieldset, header fieldset legend {
 
 header nav {
   display:block;
+  inline:block;
 }
 
 #menuprincipal ul {margin: 0; padding: 0;
@@ -34,7 +35,8 @@ header nav {
 }
 
 fieldset {
-  margin: 10px;
+  float:right;
+  position: absolute;
 }
 fieldset, legend {
     background-color: #eee;
@@ -49,8 +51,9 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
-
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
+float:left;
+}
 #content > aside {
   float: right;
 }
