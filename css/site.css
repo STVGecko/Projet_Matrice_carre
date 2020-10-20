@@ -24,10 +24,10 @@ header nav {
 	list-style-type: none; list-style-image: none; }
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;  margin: 4px;
-	padding: 5px 20px 5px 20px; color: blue;
-	background: pink;}
+	padding: 5px 20px 5px 20px; color: #10140A;
+	background: #D4EEAA;}
 #menuprincipal ul li a:hover {color: purple;
-	background: yellow; }
+	background: #B2C298; }
 
 #legendemenuprincipal  {
   float:left;
