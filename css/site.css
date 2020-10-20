@@ -52,7 +52,7 @@ legend {
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
 #content > aside {
-  float: right;
+  /**float: right;**/
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
