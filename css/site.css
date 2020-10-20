@@ -40,7 +40,7 @@ fieldset {
   margin: 10px;
 }
 fieldset, legend {
-    background-color: #eee;
+    background-color: #C4F1F9;
     border-radius: 5px;
     }
 legend {
@@ -52,22 +52,14 @@ legend {
     text-shadow: #fff 1px 1px 1px;
   }
 
-#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
-}
+#fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
-#content{
-  display: flex;
-  justify-content: center;
-  padding-top: 2%;
-}
-
-/**#content > aside {
+#content > aside {
   float: right;
-}**/
+}
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border:none;
-  width: 27%;
   background-color: #C4F1F9;
 }
 
@@ -79,6 +71,6 @@ footer {
   display: block;
   text-align: center;
   border: none;
-  background-color: red;
+  background-color: #CADDAB;
 
 }
