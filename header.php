@@ -14,7 +14,7 @@
         <div>
           <legend>header.php: &lt;head&gt; avec <code>wp_head()</code> + &lt;header&gt;</legend>
           <h1>Agence Matrice Carrée <code>bloginfo('name')</code> : <?php bloginfo( 'name' ); ?></h1>
-          <h2> Matrice Carrée, c'est carrée.<code>bloginfo('description')</code> : <?php bloginfo( 'description' ); ?></h2>
+          <h2> Matrice Carrée, c'est carrée.<code>bonjour, Lucas....</code> : <?php bloginfo( 'description' ); ?></h2>
           <nav id="menuprincipal">
           <div id="legendemenuprincipal">Menu principal </div>
             <?php wp_page_menu('show_home=1'); ?>
