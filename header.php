@@ -13,8 +13,8 @@
       <header>
         <div>
 
-          <h1>Agence Matrice Carrée <!--<code>bloginfo('name')</code>--> : <?php bloginfo( 'name' ); ?></h1>
-          <h2> Matrice Carrée, c'est carrée.<code>bloginfo('description')</code> : <?php bloginfo( 'description' ); ?></h2>
+          <h1>Agence Matrice Carrée : <?php bloginfo( 'name' ); ?></h1>
+          <h2> Matrice Carrée, c'est carrée. : <?php bloginfo( 'description' ); ?></h2>
           <nav id="menuprincipal">
           <div id="legendemenuprincipal">Menu principal </div>
             <?php wp_page_menu('show_home=1'); ?>
