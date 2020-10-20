@@ -53,10 +53,13 @@ legend {
 
 #content > aside {
   /**float: right;**/
+  display: inline-block;
 }
+
 
 #fieldsetsidebar, #fieldsetsidebar legend {
   border: 2px solid green;
+  width:25%;
 }
 
 footer fieldset, footer fieldset legend {
