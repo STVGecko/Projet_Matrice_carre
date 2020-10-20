@@ -51,9 +51,9 @@ legend {
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend
 
-#content > aside {
-  /**float: right;**/
-}
+/**#content > aside {
+  /**float: right;
+}**/
 
 #content { /**fait par steeven**/
   display: flex;
