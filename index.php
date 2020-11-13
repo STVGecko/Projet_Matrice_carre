@@ -11,7 +11,6 @@
 <body>
 	<header>
 	</header>
-</header>
 	<footer>
 
 	</footer>
