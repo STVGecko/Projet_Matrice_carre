@@ -13,6 +13,9 @@ header {
   text-align: center;
   color: #4E5166;
 }
+header div{
+  background-color: rgba(185,183,167,0.5);
+}
 
 header fieldset, header fieldset legend {
   border: 5px solid yellow;
