@@ -18,6 +18,9 @@ header div{
   border-radius: 10px;
   height: 10%;
 }
+header div h1{
+  margin-top: 5%;
+}
 
 header fieldset, header fieldset legend {
   border: 5px solid yellow;
