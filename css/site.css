@@ -48,7 +48,7 @@ overflow: hidden;
 }
 #menuprincipal ul li a:hover {color: #255784;
 background: #9F907F;
-box-shadow: 0 0 10px #9F907F, 0 0 40px #9F907F, 0 0 80px #9F907F;
+box-shadow: 0 0 10px #9F907F, 0 0 20px #9F907F, 0 0 40px #9F907F;
 transition-delay: 0.1s; }
 #menuprincipal ul li a:focus {color: #484748;
   	background: #B9B7A7; }
