@@ -34,7 +34,7 @@ header nav {
   padding-top: 30px;
 }
 .separation{
-  
+
 }
 
 #content{
@@ -68,7 +68,10 @@ transition-delay: 0.1s; }
 #legendemenuprincipal  {
   float:left;
 }
+aside fieldset{
+  box-shadow: 0 0 5px #f8f5ef, 0 0 10px #f8f5ef;
 
+}
 fieldset {
   margin: 10px;
   border: none;
