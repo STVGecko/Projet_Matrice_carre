@@ -34,13 +34,7 @@ header nav {
   padding-top: 30px;
 }
 .separation{
-  position : absolute;
-	margin: 0;
-	width: 4px;
-	height: 98%;
-	right: 0px;
-	background: url(images/container-bg.gif) repeat-y;
-	z-index: 1;
+  
 }
 
 #content{
