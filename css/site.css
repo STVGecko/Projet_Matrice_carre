@@ -28,7 +28,7 @@ header nav {
 	background: #B5AA9D;}
 #menuprincipal ul li a:hover {color: #747274;
 	background: #B9B7A7; }
-#menuprincipal ul li a:active {color: #484748;
+#menuprincipal ul li a:focus {color: #484748;
   	background: #B9B7A7; }
 
 #legendemenuprincipal  {
