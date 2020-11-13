@@ -8,6 +8,7 @@ body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
   color: #484748;
 }
+ul{list-style : none;}
 a{
   color: #363436;
 }
