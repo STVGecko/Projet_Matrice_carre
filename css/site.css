@@ -36,9 +36,9 @@ header nav {
 }
 .separation{
   text-align: center;
-     height: 2px;
-     background-color: #B9B7A7;
-     box-shadow:  0 0 5px #B9B7A7, 0 0 10px #B9B7A7;
+     height: 1px;
+     background-color: #DBC8A9;
+     box-shadow:  0 0 5px #DBC8A9;
 
 }
 
