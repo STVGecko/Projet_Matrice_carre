@@ -42,9 +42,10 @@ header nav {
   margin: 4px;
 	padding: 5px 20px 5px 20px; color: #363436;
 	background: #B5AA9D;
-letter-spacing: 4px;
-overflow: hidden;
-
+  letter-spacing: 4px;
+  overflow: hidden;
+  border-radius: 20px;
+  margin-right: 1%;
 }
 #menuprincipal ul li a:hover {color: #255784;
 background: #9F907F;
@@ -80,7 +81,7 @@ legend {
 #content {
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  padding-top: 1%;
 }
 
 #fieldsetsidebar, #fieldsetsidebar legend {
