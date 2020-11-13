@@ -70,7 +70,7 @@ transition-delay: 0.1s; }
 }
 aside fieldset{
   border: 1px black;
-  box-shadow:  0 0 5px 10px #B9B7A7;
+  box-shadow:  0 0 5px #E7DBC6, 0 0 10px #E7DBC6, 0 0 20px #E7DBC6;
 }
 
 fieldset {
