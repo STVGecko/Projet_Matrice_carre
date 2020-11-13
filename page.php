@@ -26,8 +26,9 @@
 
 <section id='content'>
   <aside>
-    <fieldset id="fieldsetsidebar">
-  <?php get_sidebar(); ?>
+    <fieldset>
+  		<?php get_sidebar(); ?>
+		</fieldset>
   </aside>
 
   <fieldset id="fieldsetcontent">
