@@ -14,7 +14,7 @@ header {
   background-color: #f8f5ef;
 }
 header div{
-  background-color: rgba(185,183,167,0.5);
+  background-color: #f8f5ef;
   border-radius: 10px;
   height: 10%;
 }
@@ -35,7 +35,8 @@ header nav {
 
 #menuprincipal ul {padding: 50px; padding: 0;
 	list-style-type: none; list-style-image: none;
-  background-color: rgba(185,183,167,0.5);
+  background-color: #f8f5ef;
+  padding-bottom: 2%;
  }
 #menuprincipal li {display: inline; }
 #menuprincipal ul li a {text-decoration:none;
@@ -63,7 +64,7 @@ fieldset {
   border: none;
 }
 fieldset, legend {
-    background-color: #9F907F;
+    background-color: #f8f5ef;
     border-radius: 10px;
     }
 legend {
@@ -97,6 +98,6 @@ footer {
   display: block;
   text-align: center;
   border: none;
-  background-color: blue;
+  background-color: #9F907F;
 
 }
