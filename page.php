@@ -9,9 +9,6 @@
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
-<div>
-<hr class="separation" />
-</div>
 <body>
 	<footer>
 	</footer>
@@ -28,6 +25,10 @@
 <!--pull anthony-->
 
 <section id='content'>
+	<div>
+	<hr class="separation" />
+	</div>
+
   <aside>
     <fieldset>
   		<?php get_sidebar(); ?>
