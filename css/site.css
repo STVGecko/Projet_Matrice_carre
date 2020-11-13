@@ -34,13 +34,7 @@ header nav {
   padding-top: 30px;
 }
 .separation{
-  clear: both;
-	position: absolute;
-	margin-top :10px;
-	margin-left: 250px;
-	height: 200px;
-	width : 5px;
-	background: black;
+  
 }
 
 #content{
