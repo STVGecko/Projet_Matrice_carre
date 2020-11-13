@@ -5,7 +5,9 @@ body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
   color: #484748;
 }
-
+a{
+  color: #363436;
+}
 header {
   display: block;
   text-align: center;
