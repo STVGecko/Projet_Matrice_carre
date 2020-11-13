@@ -9,6 +9,9 @@
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
+<div>
+<hr class="separation" />
+</div>
 <body>
 	<footer>
 	</footer>

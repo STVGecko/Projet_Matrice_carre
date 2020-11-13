@@ -33,6 +33,15 @@ header nav {
   display:block;
   padding-top: 30px;
 }
+.separation{
+  clear: both;
+	position: absolute;
+	margin-top :10px;
+	margin-left: 250px;
+	height: 200px;
+	width : 5px;
+	background: black;
+}
 
 #content{
   background-color: #f8f5ef;
