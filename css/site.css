@@ -1,6 +1,9 @@
 /* feuille de style pour le site
 Auteur : Mathieu Mangeot
 */
+*{
+  background-color: #f8f5ef;
+}
 body {
   font-family: "Lucida Grande",Tahoma,Helvetica,sans-serif;
   color: #484748;
