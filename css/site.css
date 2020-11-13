@@ -94,6 +94,7 @@ legend {
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
+  text-align: center;
 }
 
 #content {
