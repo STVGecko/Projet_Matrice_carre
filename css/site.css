@@ -40,7 +40,7 @@ fieldset {
   border: none;
 }
 fieldset, legend {
-    background-color: rgba(72,71,72,0.95);
+    background-color: #7C90A0;
     border-radius: 10px;
     }
 legend {
