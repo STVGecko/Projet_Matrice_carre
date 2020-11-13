@@ -35,6 +35,7 @@ header nav {
 
 fieldset {
   margin: 10px;
+  border: none;
 }
 fieldset, legend {
     background-color: #7C90A0;
