@@ -5,7 +5,7 @@
 	<title>
 
 	</title>
-	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri();?>/css/site.css"/> <!--ceci est la page pour lier le css, ne pas enlever-->
 	<meta name="viewport" content="width=device-width">
 	<meta charset="utf-8">
 </head>
