@@ -15,6 +15,7 @@ header {
 }
 header div{
   background-color: rgba(185,183,167,0.5);
+  border-radius: 10px;
 }
 
 header fieldset, header fieldset legend {
