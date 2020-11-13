@@ -25,9 +25,6 @@
 <!--pull anthony-->
 
 <section id='content'>
-	<div>
-	<hr class="separation" />
-	</div>
 
   <aside>
     <fieldset>

@@ -19,6 +19,9 @@
           <nav id="menuprincipal">
             <?php wp_page_menu('show_home=1'); ?>
           </nav>
+          <div>
+        	<hr class="separation" />
+        	</div>
         </div>
       </header>
   </html>
