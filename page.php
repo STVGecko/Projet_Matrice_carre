@@ -25,10 +25,10 @@
 <!--pull anthony-->
 
 <section id='content'>
-  <aside>
+
     <fieldset id="fieldsetsidebar">
   <?php get_sidebar(); ?>
-  </aside>
+
 
   <fieldset id="fieldsetcontent">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
