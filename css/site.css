@@ -69,6 +69,7 @@ transition-delay: 0.1s; }
   float:left;
 }
 #sidebar{
+  border: 1px black;
   box-shadow: 0 0 5px #f8f5ef, 0 0 10px #f8f5ef;
 }
 
