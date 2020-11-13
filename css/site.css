@@ -38,11 +38,19 @@ header nav {
   background-color: rgba(185,183,167,0.5);
  }
 #menuprincipal li {display: inline; }
-#menuprincipal ul li a {text-decoration:none;  margin: 4px;
-	padding: 5px 20px 5px 20px; color: #10140A;
-	background: #B5AA9D;}
-#menuprincipal ul li a:hover {color: #747274;
-	background: #B9B7A7; }
+#menuprincipal ul li a {text-decoration:none;
+  margin: 4px;
+	padding: 5px 20px 5px 20px; color: #2196f3;
+	background: #B5AA9D;
+text-transform: uppercase;
+letter-spacing: 4px;
+overflow: hidden;
+
+}
+#menuprincipal ul li a:hover {color: #255784;
+background: #2196f3;
+box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+transition-delay: 0.1s; }
 #menuprincipal ul li a:focus {color: #484748;
   	background: #B9B7A7; }
 
