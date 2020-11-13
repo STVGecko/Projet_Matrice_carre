@@ -70,12 +70,13 @@ transition-delay: 0.1s; }
 }
 aside fieldset{
   border: 1px black;
-  box-shadow:  5px 10px #f8f5ef;
+  box-shadow:  5px 10px black;
 }
 
 fieldset {
   margin: 10px;
   border: none;
+
 }
 fieldset, legend {
     background-color: #f8f5ef;
