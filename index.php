@@ -18,9 +18,9 @@
 </html>
 
 <?php
-// à utiliser avec front-page.php
-//wp_redirect(site_url());
-//exit;
+ //à utiliser avec front-page.php
+wp_redirect(site_url());
+exit;
 ?>
 <?php get_header(); ?>
 
