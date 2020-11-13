@@ -14,7 +14,7 @@ header {
   background-color: #f8f5ef;
 }
 header div{
-  background-color: rgba(185,183,167,0.5);
+  background-color: #f8f5ef;
   border-radius: 10px;
   height: 10%;
 }
@@ -76,6 +76,7 @@ legend {
   }
 
 #fieldsetcontent, #fieldsetcontent fieldset, #fieldsetcontent legend, .post, .entry fieldset,  .entry legend{
+  background-color: #f8f5ef;
 }
 
 #content {
@@ -97,6 +98,6 @@ footer {
   display: block;
   text-align: center;
   border: none;
-  background-color: blue;
+  background-color: #f8f5ef;
 
 }
