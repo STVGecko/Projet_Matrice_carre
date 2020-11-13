@@ -17,6 +17,7 @@ header fieldset, header fieldset legend {
 
 header nav {
   display:block;
+  padding: 10px;
 }
 
 #menuprincipal ul {margin: 0; padding: 0;
